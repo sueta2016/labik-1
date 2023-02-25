@@ -2,5 +2,3 @@
 
 Installation
 To install the server, you'll need to have Go installed on your machine. Once you have Go set up, you can run the following command to install the server:
-
-random text
