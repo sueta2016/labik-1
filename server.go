@@ -1,14 +1,14 @@
 package main
 
 import (
-    "net/http"
-    "labik-1/service"
+	"labik-1/service"
+	"net/http"
 )
 
 func main() {
-    timeService := service.NewTimeService()
+	timeService := service.NewTimeService()
 
-    http.HandleFunc("/time", timeService.GetTimeHandler)
+	http.HandleFunc("/time", timeService.GetTimeHandler)
 
-    http.ListenAndServe(":8795", nil)
+	http.ListenAndServe(":8795", nil)
 }
