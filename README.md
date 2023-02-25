@@ -1,1 +1,1 @@
-<h1>HELLO It's KRUT2016 team</h1>
+<h1>This is a simple HTTP server that provides the current time in JSON format.</h1>
