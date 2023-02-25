@@ -10,5 +10,5 @@ func main() {
 
     http.HandleFunc("/time", timeService.GetTimeHandler)
 
-    http.ListenAndServe(":8080", nil)
+    http.ListenAndServe(":8795", nil)
 }
